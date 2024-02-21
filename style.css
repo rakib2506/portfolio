@@ -152,6 +152,10 @@ nav h3{
     object-fit: cover;
     border: 70px solid rgb(30, 138, 189);
     border-radius: 100%;
+    transition: .4s all ease;
+}
+.my-row img:hover {
+    transform: scale(1.025);
 }
 
 /* testimonial */
@@ -168,7 +172,7 @@ nav h3{
     gap: 30px;
 }
 .cards .card{
-    flex-basis: 33.33%;
+    width: 33.33%;
     padding: 25px;
     background-color: #fff;
     border-radius: 6px;
